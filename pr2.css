@@ -1,0 +1,33 @@
+section {
+    margin-top: 100px auto;
+}
+
+div {
+    width: 100px;
+    height: 100px;
+    background-color: rgba(99, 45, 2, 1);
+    margin: 10px auto;
+    border: 2px solid greenyellow;
+    text-align: center;
+}
+
+div:nth-of-type(2n) {
+    background-color: violet;
+}
+
+div:nth-of-type(3n) {
+    background-color: yellowgreen;
+}
+
+#one {
+    transform: rotate(70deg);
+
+}
+
+#two {
+    transform: translate(120px, 50%);
+}
+
+#three {
+    transform: scale(2, 0.5);
+}

@@ -1,0 +1,26 @@
+.container{
+
+    height: auto;
+    width: auto;
+    background-color: aquamarine;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(2,1fr);
+  
+}
+
+.container>div{
+    height: 100px;
+    width: 200px;
+    background-color: brown;
+    color: azure;
+    border: 1px solid black;
+    text-align: center;
+    line-height: 75px;
+}
+
+.one{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    
+}

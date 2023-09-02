@@ -1,0 +1,30 @@
+.box {
+   
+}
+
+#one {
+   width: 100px;
+   height: 100px;
+   background-color: green;
+}
+
+#one:hover{
+    width: 600px;
+    transition: 0.s ease-in 2s;
+}
+
+#two {
+   
+}
+
+#three {
+    
+}
+
+#four {
+  
+}
+
+#five {
+   
+}
